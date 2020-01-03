@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Reload Colab",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://colab.research.google.com/*",
+                "http://colab.research.google.com/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
