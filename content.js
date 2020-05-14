@@ -11,6 +11,6 @@ function getTime(){
 console.log('Extension voccer working')
 function ClickConnect() {
     console.log('Time: ' + getTime());
-    document.querySelector("colab-toolbar-button#connect").click()
+    document.querySelector("#top-toolbar > colab-connect-button").shadowRoot.querySelector("#connect").click() 
   }
 setInterval(ClickConnect, 60000)
