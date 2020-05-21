@@ -5,8 +5,8 @@
     "content_scripts": [
         {
             "matches": [
-                "https://colab.research.google.com/*",
-                "http://colab.research.google.com/*"
+                "https://colab.research.google.com/drive/*",
+                "http://colab.research.google.com/drive/*"
             ],
             "js": [
                 "content.js"
