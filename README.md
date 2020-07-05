@@ -7,4 +7,3 @@ Vào google chrome, vào phần extensions, bật chế độ <code>developer mo
 Ấn vào <code>Load unpacked</code> và trỏ vào đường dẫn của project
 
 <strong>Done!!</strong>
-this is change
